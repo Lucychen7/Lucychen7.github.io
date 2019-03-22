@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+  Color: black;
+  font-family: "plantin-light", sans-serif;
+  font-size: 12px;
+
+}
+
+h1 {
+  font-family: "plantin-light", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 30px;
+  text-decoration: underline;
+  padding: 30px;
+  line-height: 15px;
+}
+
+h2 {
+  font-family: "plantin-light", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 60px;
+  text-decoration: underline;
+  line-height: 20px;
+}
+
+h3 {
+  font-family: "plantin-light", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: RIGHT;
+  text-decoration: underline;
+  line-height: 15px;
+  margin-right: 60px;
+
+}
+
+
+img {
+  width: 150px;
+  margin-left: 600px;
+  display: inline-block;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
