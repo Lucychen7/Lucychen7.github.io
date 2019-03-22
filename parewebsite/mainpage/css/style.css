@@ -3,20 +3,22 @@ body {
   Color: black;
   font-family: "plantin-light", sans-serif;
   font-size: 12px;
+  width: 100%;
+  height: 100%;
 
 }
 
 h1 {
   font-family: "plantin-light", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-style: italic;
   font-weight: lighter;
   text-align: left;
   margin-top: 40px;
-  margin-left: 30px;
+  margin-left: 60px;
   text-decoration: underline;
-  padding: 30px;
   line-height: 15px;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -25,33 +27,33 @@ h2 {
   font-style: italic;
   font-weight: lighter;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-left: 60px;
   text-decoration: underline;
   line-height: 20px;
 }
 
-h3 {
+h4 {
   font-family: "plantin-light", sans-serif;
   font-size: 12px;
   font-style: italic;
   font-weight: lighter;
-  text-align: RIGHT;
   text-decoration: underline;
   line-height: 15px;
-  margin-right: 60px;
+  margin-left: 60px;
+  padding-top: 30px;
 
 }
 
+header > h4 { display: inline-block; margin-top: 150px;}
+
+header > h1 { display: inline-block; }
+header span {
+  margin-left: 600px;
+  text-decoration: underline;
+}
 
 img {
-  width: 150px;
-  margin-left: 600px;
-  display: inline-block;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+  width: 370px;
+  margin-left: 350px;
 }
